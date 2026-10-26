@@ -1,0 +1,1427 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    searched_directories:
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/uname"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/uname"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/uname"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/uname"
+    found: "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.18.55 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    searched_directories:
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/ninja-build"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/ninja"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/samu"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/ninja-build"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/ninja"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/samu"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/ninja-build"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/ninja"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/samu"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/ninja-build"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/ninja"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/samu"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/ninja-build"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/ninja"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/samu"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/ninja-build"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/ninja"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/samu"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/ninja-build"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/ninja"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/samu"
+      - "/run/wrappers/bin/ninja-build"
+      - "/run/wrappers/bin/ninja"
+      - "/run/wrappers/bin/samu"
+      - "/home/roman/.local/share/flatpak/exports/bin/ninja-build"
+      - "/home/roman/.local/share/flatpak/exports/bin/ninja"
+      - "/home/roman/.local/share/flatpak/exports/bin/samu"
+      - "/var/lib/flatpak/exports/bin/ninja-build"
+      - "/var/lib/flatpak/exports/bin/ninja"
+      - "/var/lib/flatpak/exports/bin/samu"
+      - "/home/roman/.nix-profile/bin/ninja-build"
+      - "/home/roman/.nix-profile/bin/ninja"
+      - "/home/roman/.nix-profile/bin/samu"
+      - "/nix/profile/bin/ninja-build"
+      - "/nix/profile/bin/ninja"
+      - "/nix/profile/bin/samu"
+      - "/home/roman/.local/state/nix/profile/bin/ninja-build"
+      - "/home/roman/.local/state/nix/profile/bin/ninja"
+      - "/home/roman/.local/state/nix/profile/bin/samu"
+      - "/etc/profiles/per-user/roman/bin/ninja-build"
+    found: "/etc/profiles/per-user/roman/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    searched_directories:
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/c++"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/c++"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/c++"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/c++"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/c++"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/c++"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/c++"
+      - "/run/wrappers/bin/c++"
+      - "/home/roman/.local/share/flatpak/exports/bin/c++"
+      - "/var/lib/flatpak/exports/bin/c++"
+      - "/home/roman/.nix-profile/bin/c++"
+      - "/nix/profile/bin/c++"
+      - "/home/roman/.local/state/nix/profile/bin/c++"
+    found: "/etc/profiles/per-user/roman/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/"
+    found: "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /etc/profiles/per-user/roman/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/build/CMakeFiles/4.1.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    found: "/etc/profiles/per-user/roman/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    found: "/etc/profiles/per-user/roman/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    found: "/etc/profiles/per-user/roman/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    found: "/etc/profiles/per-user/roman/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    found: "/etc/profiles/per-user/roman/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    found: "/etc/profiles/per-user/roman/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    found: "/etc/profiles/per-user/roman/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    found: "/etc/profiles/per-user/roman/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    searched_directories:
+      - "/etc/profiles/per-user/roman/bin/dlltool"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/dlltool"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/dlltool"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/dlltool"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/dlltool"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/dlltool"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/dlltool"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/dlltool"
+      - "/run/wrappers/bin/dlltool"
+      - "/home/roman/.local/share/flatpak/exports/bin/dlltool"
+      - "/var/lib/flatpak/exports/bin/dlltool"
+      - "/home/roman/.nix-profile/bin/dlltool"
+      - "/nix/profile/bin/dlltool"
+      - "/home/roman/.local/state/nix/profile/bin/dlltool"
+      - "/nix/var/nix/profiles/default/bin/dlltool"
+      - "/run/current-system/sw/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    found: "/etc/profiles/per-user/roman/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    searched_directories:
+      - "/etc/profiles/per-user/roman/bin/tapi"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/tapi"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/tapi"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/tapi"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/tapi"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/tapi"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/tapi"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/tapi"
+      - "/run/wrappers/bin/tapi"
+      - "/home/roman/.local/share/flatpak/exports/bin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/home/roman/.nix-profile/bin/tapi"
+      - "/nix/profile/bin/tapi"
+      - "/home/roman/.local/state/nix/profile/bin/tapi"
+      - "/nix/var/nix/profiles/default/bin/tapi"
+      - "/run/current-system/sw/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.3"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    searched_directories:
+      - "/etc/profiles/per-user/roman/bin/gcc-ar-15.3"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/gcc-ar-15.3"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/gcc-ar-15.3"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/gcc-ar-15.3"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/gcc-ar-15.3"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/gcc-ar-15.3"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/gcc-ar-15.3"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/gcc-ar-15.3"
+      - "/run/wrappers/bin/gcc-ar-15.3"
+      - "/home/roman/.local/share/flatpak/exports/bin/gcc-ar-15.3"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-15.3"
+      - "/home/roman/.nix-profile/bin/gcc-ar-15.3"
+      - "/nix/profile/bin/gcc-ar-15.3"
+      - "/home/roman/.local/state/nix/profile/bin/gcc-ar-15.3"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-15.3"
+      - "/run/current-system/sw/bin/gcc-ar-15.3"
+      - "/etc/profiles/per-user/roman/bin/gcc-ar-15"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/gcc-ar-15"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/gcc-ar-15"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/gcc-ar-15"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/gcc-ar-15"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/gcc-ar-15"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/gcc-ar-15"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/gcc-ar-15"
+      - "/run/wrappers/bin/gcc-ar-15"
+      - "/home/roman/.local/share/flatpak/exports/bin/gcc-ar-15"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-15"
+      - "/home/roman/.nix-profile/bin/gcc-ar-15"
+      - "/nix/profile/bin/gcc-ar-15"
+      - "/home/roman/.local/state/nix/profile/bin/gcc-ar-15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-15"
+      - "/run/current-system/sw/bin/gcc-ar-15"
+      - "/etc/profiles/per-user/roman/bin/gcc-ar15"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/gcc-ar15"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/gcc-ar15"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/gcc-ar15"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/gcc-ar15"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/gcc-ar15"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/gcc-ar15"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/gcc-ar15"
+      - "/run/wrappers/bin/gcc-ar15"
+      - "/home/roman/.local/share/flatpak/exports/bin/gcc-ar15"
+      - "/var/lib/flatpak/exports/bin/gcc-ar15"
+      - "/home/roman/.nix-profile/bin/gcc-ar15"
+      - "/nix/profile/bin/gcc-ar15"
+      - "/home/roman/.local/state/nix/profile/bin/gcc-ar15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar15"
+      - "/run/current-system/sw/bin/gcc-ar15"
+      - "/etc/profiles/per-user/roman/bin/gcc-ar"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/gcc-ar"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/gcc-ar"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/gcc-ar"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/gcc-ar"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/gcc-ar"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/gcc-ar"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/gcc-ar"
+      - "/run/wrappers/bin/gcc-ar"
+      - "/home/roman/.local/share/flatpak/exports/bin/gcc-ar"
+      - "/var/lib/flatpak/exports/bin/gcc-ar"
+      - "/home/roman/.nix-profile/bin/gcc-ar"
+      - "/nix/profile/bin/gcc-ar"
+      - "/home/roman/.local/state/nix/profile/bin/gcc-ar"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar"
+      - "/run/current-system/sw/bin/gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.3"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/etc/profiles/per-user/roman/bin/"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/roman/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/roman/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/roman/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    searched_directories:
+      - "/etc/profiles/per-user/roman/bin/gcc-ranlib-15.3"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/gcc-ranlib-15.3"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/gcc-ranlib-15.3"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/gcc-ranlib-15.3"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/gcc-ranlib-15.3"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/gcc-ranlib-15.3"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/gcc-ranlib-15.3"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/gcc-ranlib-15.3"
+      - "/run/wrappers/bin/gcc-ranlib-15.3"
+      - "/home/roman/.local/share/flatpak/exports/bin/gcc-ranlib-15.3"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-15.3"
+      - "/home/roman/.nix-profile/bin/gcc-ranlib-15.3"
+      - "/nix/profile/bin/gcc-ranlib-15.3"
+      - "/home/roman/.local/state/nix/profile/bin/gcc-ranlib-15.3"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-15.3"
+      - "/run/current-system/sw/bin/gcc-ranlib-15.3"
+      - "/etc/profiles/per-user/roman/bin/gcc-ranlib-15"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/gcc-ranlib-15"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/gcc-ranlib-15"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/gcc-ranlib-15"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/gcc-ranlib-15"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/gcc-ranlib-15"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/gcc-ranlib-15"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/gcc-ranlib-15"
+      - "/run/wrappers/bin/gcc-ranlib-15"
+      - "/home/roman/.local/share/flatpak/exports/bin/gcc-ranlib-15"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-15"
+      - "/home/roman/.nix-profile/bin/gcc-ranlib-15"
+      - "/nix/profile/bin/gcc-ranlib-15"
+      - "/home/roman/.local/state/nix/profile/bin/gcc-ranlib-15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-15"
+      - "/run/current-system/sw/bin/gcc-ranlib-15"
+      - "/etc/profiles/per-user/roman/bin/gcc-ranlib15"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/gcc-ranlib15"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/gcc-ranlib15"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/gcc-ranlib15"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/gcc-ranlib15"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/gcc-ranlib15"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/gcc-ranlib15"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/gcc-ranlib15"
+      - "/run/wrappers/bin/gcc-ranlib15"
+      - "/home/roman/.local/share/flatpak/exports/bin/gcc-ranlib15"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib15"
+      - "/home/roman/.nix-profile/bin/gcc-ranlib15"
+      - "/nix/profile/bin/gcc-ranlib15"
+      - "/home/roman/.local/state/nix/profile/bin/gcc-ranlib15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib15"
+      - "/run/current-system/sw/bin/gcc-ranlib15"
+      - "/etc/profiles/per-user/roman/bin/gcc-ranlib"
+      - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin/gcc-ranlib"
+      - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin/gcc-ranlib"
+      - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin/gcc-ranlib"
+      - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin/gcc-ranlib"
+      - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin/gcc-ranlib"
+      - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin/gcc-ranlib"
+      - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin/gcc-ranlib"
+      - "/run/wrappers/bin/gcc-ranlib"
+      - "/home/roman/.local/share/flatpak/exports/bin/gcc-ranlib"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib"
+      - "/home/roman/.nix-profile/bin/gcc-ranlib"
+      - "/nix/profile/bin/gcc-ranlib"
+      - "/home/roman/.local/state/nix/profile/bin/gcc-ranlib"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib"
+      - "/run/current-system/sw/bin/gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/4my20g6lr61k2738swn7az3wiawbz95a-glib-2.88.3-bin/bin"
+        - "/nix/store/s641c0qkw530l5mhqwa2ra7frjrwa13n-gawk-5.4.1/bin"
+        - "/nix/store/2d2jxw071wai1hh6dj0shlgqmlz8zmy1-gnugrep-3.12/bin"
+        - "/nix/store/sazlbkll5x2dw1kkx0l2a8b74w6rgdxm-gnused-4.10/bin"
+        - "/nix/store/833invqvsk7anqnqrki5hqncrcllj825-coreutils-9.11/bin"
+        - "/nix/store/05si422r8jpysq89w68yrnx21zr0kiym-which-2.23/bin"
+        - "/nix/store/yhl9p3k90z7y0r03mz3bh9s867mkyscn-getconf-glibc-2.42-84/bin"
+        - "/run/wrappers/bin"
+        - "/home/roman/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/roman/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/roman/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/roman/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/build/CMakeFiles/CMakeScratch/TryCompile-r5OXBB"
+      binary: "/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/build/CMakeFiles/CMakeScratch/TryCompile-r5OXBB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/build/CMakeFiles/CMakeScratch/TryCompile-r5OXBB'
+        
+        Run Build Command(s): /etc/profiles/per-user/roman/bin/ninja -v cmTC_06a8a
+        [1/2] /etc/profiles/per-user/roman/bin/c++   -v -o CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/bin/g++
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../gcc-15.3.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-84-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0/include/c++/15.3.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/' '-idirafter' '/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include' '-idirafter' '/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed' '-B' '/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06a8a.dir/'
+         /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/cc1plus -quiet -v -D_GNU_SOURCE -idirafter /nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include -idirafter /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed /nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_06a8a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mno-omit-leaf-frame-pointer -mtune=generic -march=x86-64 -version -fno-omit-frame-pointer -o /tmp/ccgwkZqj.s
+        GNU C++17 (GCC) version 15.3.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 15.3.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version isl-0.20-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../../../x86_64-unknown-linux-gnu/include"
+        ignoring duplicate directory "/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include"
+        ignoring duplicate directory "/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0/
+         /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0//x86_64-unknown-linux-gnu
+         /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0//backward
+         /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include
+         /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include
+         /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed
+         /nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include
+        End of search list.
+        Compiler executable checksum: e27b558b12ec1131f09fa854b1b54167
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/' '-idirafter' '/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include' '-idirafter' '/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed' '-B' '/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06a8a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccgwkZqj.s
+        GNU assembler version 2.46 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.46
+        COMPILER_PATH=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/:/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/:/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../../
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/' '-idirafter' '/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include' '-idirafter' '/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed' '-B' '/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /etc/profiles/per-user/roman/bin/c++  -v -Wl,-v CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_06a8a   && :
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/bin/g++
+        COLLECT_LTO_WRAPPER=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../gcc-15.3.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-84-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0/include/c++/15.3.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.3.0 (GCC) 
+        COMPILER_PATH=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/:/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/:/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../../
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_06a8a' '-B' '/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/' '-idirafter' '/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include' '-idirafter' '/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed' '-B' '/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib' '-L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0' '-L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06a8a.'
+         /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/collect2 -plugin /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/liblto_plugin.so -plugin-opt=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSg6sOw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_06a8a /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/Scrt1.o /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crti.o /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o -L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../.. -dynamic-linker=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crtn.o
+        collect2 version 15.3.0
+        /nix/store/lydiw6nfl7g2mz09wkacic38bzhqhr1v-binutils-wrapper-2.46/bin/ld -plugin /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/liblto_plugin.so -plugin-opt=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSg6sOw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_06a8a /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/Scrt1.o /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crti.o /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o -L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../.. -dynamic-linker=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_06a8a' '-B' '/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/' '-idirafter' '/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include' '-idirafter' '/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed' '-B' '/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib' '-L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0' '-L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06a8a.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0/]
+          add: [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0//x86_64-unknown-linux-gnu]
+          add: [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0//backward]
+          add: [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include]
+          add: [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include]
+          add: [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed]
+          add: [/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0/] ==> [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0]
+        collapse include dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0//x86_64-unknown-linux-gnu] ==> [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0//backward] ==> [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0/backward]
+        collapse include dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include] ==> [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include]
+        collapse include dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include] ==> [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include]
+        collapse include dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed] ==> [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed]
+        collapse include dir [/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include] ==> [/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include]
+        implicit include dirs: [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0;/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu;/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0/backward;/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include;/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include;/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed;/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/build/CMakeFiles/CMakeScratch/TryCompile-r5OXBB']
+        ignore line: []
+        ignore line: [Run Build Command(s): /etc/profiles/per-user/roman/bin/ninja -v cmTC_06a8a]
+        ignore line: [[1/2] /etc/profiles/per-user/roman/bin/c++   -v -o CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/bin/g++]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../gcc-15.3.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-84-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0/include/c++/15.3.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/' '-idirafter' '/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include' '-idirafter' '/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed' '-B' '/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06a8a.dir/']
+        ignore line: [ /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/cc1plus -quiet -v -D_GNU_SOURCE -idirafter /nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include -idirafter /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed /nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_06a8a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mno-omit-leaf-frame-pointer -mtune=generic -march=x86-64 -version -fno-omit-frame-pointer -o /tmp/ccgwkZqj.s]
+        ignore line: [GNU C++17 (GCC) version 15.3.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.3.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version isl-0.20-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../../../x86_64-unknown-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0/]
+        ignore line: [ /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0//x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include/c++/15.3.0//backward]
+        ignore line: [ /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include]
+        ignore line: [ /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/include]
+        ignore line: [ /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed]
+        ignore line: [ /nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e27b558b12ec1131f09fa854b1b54167]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/' '-idirafter' '/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include' '-idirafter' '/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed' '-B' '/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06a8a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccgwkZqj.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.46]
+        ignore line: [COMPILER_PATH=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/:/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/:/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/' '-idirafter' '/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include' '-idirafter' '/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed' '-B' '/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /etc/profiles/per-user/roman/bin/c++  -v -Wl -v CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_06a8a   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../gcc-15.3.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-84-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0/include/c++/15.3.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/:/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/:/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/:/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_06a8a' '-B' '/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/' '-idirafter' '/nix/store/nl1lkxkfx6466dlbv0v1azh2dqa7j1k6-glibc-2.42-84-dev/include' '-idirafter' '/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include-fixed' '-B' '/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib' '-L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0' '-L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06a8a.']
+        link line: [ /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/collect2 -plugin /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/liblto_plugin.so -plugin-opt=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSg6sOw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_06a8a /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/Scrt1.o /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crti.o /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o -L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../.. -dynamic-linker=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crtn.o]
+          arg [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccSg6sOw.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_06a8a] ==> ignore
+          arg [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/Scrt1.o] ==> obj [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/Scrt1.o]
+          arg [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crti.o] ==> obj [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crti.o]
+          arg [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o] ==> obj [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o]
+          arg [-L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib] ==> dir [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib]
+          arg [-L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0] ==> dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+          arg [-L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib] ==> dir [/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib]
+          arg [-L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib] ==> dir [/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib]
+          arg [-L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib] ==> dir [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib]
+          arg [-L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib] ==> dir [/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib]
+          arg [-L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0] ==> dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+          arg [-L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../..] ==> dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../..]
+          arg [-dynamic-linker=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o] ==> obj [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o]
+          arg [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crtn.o] ==> obj [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crtn.o]
+        ignore line: [collect2 version 15.3.0]
+        ignore line: [/nix/store/lydiw6nfl7g2mz09wkacic38bzhqhr1v-binutils-wrapper-2.46/bin/ld -plugin /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/liblto_plugin.so -plugin-opt=/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/libexec/gcc/x86_64-unknown-linux-gnu/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSg6sOw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_06a8a /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/Scrt1.o /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crti.o /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o -L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib -L/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../.. -dynamic-linker=/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_06a8a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crtn.o]
+        linker tool for 'CXX': /nix/store/lydiw6nfl7g2mz09wkacic38bzhqhr1v-binutils-wrapper-2.46/bin/ld
+        collapse library dir [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib] ==> [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib]
+        collapse library dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0] ==> [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+        collapse library dir [/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib] ==> [/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib]
+        collapse library dir [/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib] ==> [/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib]
+        collapse library dir [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib] ==> [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib]
+        collapse library dir [/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib] ==> [/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib]
+        collapse library dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0] ==> [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+        collapse library dir [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/../../..] ==> [/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/Scrt1.o;/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crti.o;/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o;/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o;/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/crtn.o]
+        implicit dirs: [/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib;/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0;/nix/store/2ga5nd1m56n5cx2wh8vbf6nrdhqk2f0q-gcc-15.3.0-lib/lib;/nix/store/w4910jj1pb63k12d3gbnl03n1ixcf1js-gcc-15.3.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/nix/store/hkldf6z3rlgdrkza4avb5r4hplr4kfa0-cmake-4.1.6/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/nix/store/lydiw6nfl7g2mz09wkacic38bzhqhr1v-binutils-wrapper-2.46/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+...
