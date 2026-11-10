@@ -134,7 +134,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=131a_kushnir_roman_lab3_project
+CMAKE_PROJECT_NAME:STATIC=MyArrayProject
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/etc/profiles/per-user/roman/bin/ranlib
@@ -200,6 +200,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+MyArrayProject_BINARY_DIR:STATIC=/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/build
+
+//Value Computed by CMake
+MyArrayProject_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+MyArrayProject_SOURCE_DIR:STATIC=/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3
 
 
 ########################

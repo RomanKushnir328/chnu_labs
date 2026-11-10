@@ -1,0 +1,3 @@
+/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab4/build/CMakeFiles/131a_kushnir_roman_lab4_app.dir
+/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab4/build/CMakeFiles/edit_cache.dir
+/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab4/build/CMakeFiles/rebuild_cache.dir

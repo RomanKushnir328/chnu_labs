@@ -1,4 +1,7 @@
 # ninja log v7
-1	520	1792397577433983387	CMakeFiles/131a_kushnir_roman_lab3_app.dir/main.cpp.o	d6353b9a2e850ee3
-1	701	1792397577435319764	CMakeFiles/131a_kushnir_roman_lab3_app.dir/intarray.cpp.o	639bae47a92b08c9
-701	807	1792397578133983384	131a_kushnir_roman_lab3_app	7a575a1a25439a12
+1	294	1793099012626978953	CMakeFiles/131a_kushnir_roman_lab3_app.dir/main.cpp.o	245e59058724168e
+1	399	1793099012628048354	CMakeFiles/131a_kushnir_roman_lab3_app.dir/intarray.cpp.o	859d96d63fafffb8
+399	463	1793099013025897880	131a_kushnir_roman_lab3_app	7a575a1a25439a12
+8	321	1793098684251980206	CMakeFiles/131_lab3_example_pp.dir/main.cpp.o	8cc43d6b194ab48c
+9	417	1793098684252980206	CMakeFiles/131_lab3_example_pp.dir/intarray.cpp.o	a321652391d4d049
+417	478	1793098684661941761	131_lab3_example_pp	440f7f0b40701df9

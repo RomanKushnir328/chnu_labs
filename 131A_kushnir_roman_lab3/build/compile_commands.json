@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/build",
+  "command": "/etc/profiles/per-user/roman/bin/c++ -std=c++20 -Wall -Wextra -Wpedantic -fdiagnostics-color=always -o CMakeFiles/131a_kushnir_roman_lab3_app.dir/main.cpp.o -c /home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/main.cpp",
+  "file": "/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/main.cpp",
+  "output": "/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/build/CMakeFiles/131a_kushnir_roman_lab3_app.dir/main.cpp.o"
+},
+{
+  "directory": "/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/build",
+  "command": "/etc/profiles/per-user/roman/bin/c++ -std=c++20 -Wall -Wextra -Wpedantic -fdiagnostics-color=always -o CMakeFiles/131a_kushnir_roman_lab3_app.dir/intarray.cpp.o -c /home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/intarray.cpp",
+  "file": "/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/intarray.cpp",
+  "output": "/home/roman/Documents/programmingProjects/chnu/131A_kushnir_roman_lab3/build/CMakeFiles/131a_kushnir_roman_lab3_app.dir/intarray.cpp.o"
+}
+]
